@@ -17,7 +17,7 @@ Param (
     $Command,
     [switch]
     [Alias("b")]
-    $Base64,
+    $Base64
 )
 
 function Show-Help {
